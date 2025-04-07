@@ -26,7 +26,7 @@ public class PersonalAragon implements IPersonalAragon {
     }
 
     public void getInfo() {
-        String name = String.join(" ", nombre + apellido);
+        String name = nombre + " " + apellido;
         System.out.println(getCuenta() + ": " + name);
     }
 }
